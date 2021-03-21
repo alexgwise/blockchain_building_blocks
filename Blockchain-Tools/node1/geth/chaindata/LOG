@@ -1,0 +1,35 @@
+=============== Mar 20, 2021 (CDT) ===============
+12:42:04.807351 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:42:04.816161 db@open opening
+12:42:04.817206 version@stat F·[] S·0B[] Sc·[]
+12:42:04.819244 db@janitor F·2 G·0
+12:42:04.819244 db@open done T·3.0828ms
+12:42:04.830477 db@close closing
+12:42:04.836509 db@close done T·6.0324ms
+=============== Mar 20, 2021 (CDT) ===============
+12:42:58.255854 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:42:58.256380 version@stat F·[] S·0B[] Sc·[]
+12:42:58.256380 db@open opening
+12:42:58.256380 journal@recovery F·1
+12:42:58.261612 journal@recovery recovering @1
+12:42:58.265812 memdb@flush created L0@2 N·627 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+12:42:58.271012 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:42:58.280569 db@janitor F·3 G·0
+12:42:58.280569 db@open done T·24.1899ms
+12:42:58.357610 table@compaction range L-1 "a":"b"
+12:42:58.357610 table@compaction L0·1 -> L1·0 S·50KiB Q·633
+12:42:58.376148 table@build created L1@5 N·627 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+12:42:58.376148 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+12:42:58.378251 table@compaction committed F~ S~ Ke·0 D·0 T·20.6409ms
+12:42:58.395900 memdb@flush N·6 S·184B
+12:42:58.403097 memdb@flush created L0@7 N·6 S·322B "Dat..ion,v629":"unc..own,v634"
+12:42:58.403097 version@stat F·[1 1] S·51KiB[322B 50KiB] Sc·[0.25 0.00]
+12:42:58.405097 memdb@flush committed F·1 T·9.1977ms
+12:42:58.405097 journal@remove removed @3
+12:42:58.406098 table@compaction range L-1 "o":"p"
+12:42:58.406098 table@compaction L0·1 -> L1·1 S·51KiB Q·634
+12:42:58.410099 table@build created L1@8 N·631 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+12:42:58.410099 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+12:42:58.412099 table@compaction committed F-1 S-350B Ke·0 D·2 T·6.0011ms
+12:42:58.412099 table@remove removed @7
+12:42:58.413099 table@remove removed @5
